@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ToolsProject.iml" filepath="$PROJECT_DIR$/ToolsProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designmode/designmode.iml" filepath="$PROJECT_DIR$/designmode/designmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meterialdesigndemo/meterialdesigndemo.iml" filepath="$PROJECT_DIR$/meterialdesigndemo/meterialdesigndemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spannableStringBuilderDemo_图文混排/spannableStringBuilderDemo_图文混排.iml" filepath="$PROJECT_DIR$/spannableStringBuilderDemo_图文混排/spannableStringBuilderDemo_图文混排.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trakedemo/trakedemo.iml" filepath="$PROJECT_DIR$/trakedemo/trakedemo.iml" />
+    </modules>
+  </component>
+</project>

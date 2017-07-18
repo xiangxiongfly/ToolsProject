@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textSize"  format="dimension"/>
+    <attr name="textColor" format="color"/>
+
+    <!--环形进度条-->
+    <declare-styleable name="CircleProgressView">
+        <attr name="circleColor" format="color"></attr>
+        <attr name="circleProgressColor" format="color"></attr>
+             <attr name="circleWidth" format="dimension"></attr>
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="progress" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+    </declare-styleable>
+
+    <!--饼状图-->
+    <declare-styleable name="PieView">
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="dataTextSize" format="dimension" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="dataTextColor" format="color" />
+        <attr name="circleWidth2" format="dimension" />
+    </declare-styleable>
+
+    <!--文本自动换行View-->
+    <declare-styleable name="AutoWrapTextView">
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="text" format="string"/>
+        <attr name="lineSpacingExtra" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_error_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/hot_pink"
+        android:text="错误的提示" />
+
+    <Button
+        android:id="@+id/btn_success_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/SUCCESS_COLOR"
+        android:text="成功的提示" />
+
+    <Button
+        android:id="@+id/btn_info_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/INFO_COLOR"
+        android:text="信息的提示" />
+
+    <Button
+        android:id="@+id/btn_warning_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/WARNING_COLOR"
+        android:text="警告的提示" />
+
+    <Button
+        android:id="@+id/btn_normal_toast_w_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#666666"
+        android:text="普通的提示（有ICON）" />
+
+</LinearLayout>

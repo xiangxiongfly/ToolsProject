@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="横线饼状图" />
+
+            <com.example.xx.widget.pieview.HorLinePieView
+                android:id="@+id/horLinePieView"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="折线饼状图" />
+
+            <com.example.xx.widget.pieview.LinePieView
+                android:id="@+id/linePieView"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="百分比饼状图" />
+            <com.example.xx.widget.pieview.PercentPieView
+                android:id="@+id/percentPieView"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

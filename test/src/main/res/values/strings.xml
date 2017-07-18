@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="spannablestring">欢迎光临SpannableString 的博客</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tools</string>
+
+    <string-array name="menu_page">
+        <item>Alpha</item>
+        <item>RotateDown</item>
+        <item>RotateUp</item>
+        <item>RotateY</item>
+        <item>Standard</item>
+        <item>ScaleIn</item>
+        <item>RotateDown and Alpha</item>
+        <item>RotateDown and Alpha And ScaleIn</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--验证码按钮-->
+    <declare-styleable name="VerifyCodeButton">
+        <!--默认背景-->
+        <attr name="android:background" />
+        <!--点击后背景-->
+        <attr name="clickedBackground" format="reference" />
+        <!--倒计时间-->
+        <attr name="countdownTime" format="integer" />
+        <!--倒计时间后提示文字-->
+        <attr name="countdownText" format="string" />
+    </declare-styleable>
+
+</resources>
